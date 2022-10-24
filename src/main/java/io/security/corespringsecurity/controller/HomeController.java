@@ -13,9 +13,6 @@ public class HomeController {
 		return "home";
 	}
 
-	@PostMapping(value="/")
-	public String home2() throws Exception {
-		return "home";
-	}
+
 
 }
